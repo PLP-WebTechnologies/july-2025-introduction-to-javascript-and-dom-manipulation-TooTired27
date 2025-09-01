@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Fundamentals Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mastering JavaScript Fundamentals</h1>
+  
+  <!-- Part 1: User input -->
+  <section>
+    <h2>Part 1: Basics</h2>
+    <p>Enter your age:</p>
+    <input type="number" id="ageInput" placeholder="Enter age">
+    <button onclick="checkAge()">Check Eligibility</button>
+    <p id="ageResult"></p>
+  </section>
+  
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>Part 2: Functions</h2>
+    <button onclick="calculateTotal(100, 0.15)">Calculate Total (R100 + 15% VAT)</button>
+    <p id="totalResult"></p>
+    
+    <button onclick="toggleMessage()">Toggle Message</button>
+    <p id="toggleText">Hello! Click the button above to hide me.</p>
+  </section>
+  
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>Part 3: Loops</h2>
+    <button onclick="countdown(5)">Start Countdown from 5</button>
+    <p id="countdownResult"></p>
+    
+    <button onclick="listFruits()">Show Fruits</button>
+    <ul id="fruitList"></ul>
+  </section>
+  
+  <!-- Part 4: DOM Manipulation -->
+  <section>
+    <h2>Part 4: DOM Manipulation</h2>
+    <button id="changeColorBtn">Change Background Color</button>
+    <button id="addItemBtn">Add New Item</button>
+    <ul id="dynamicList"></ul>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
